@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://kit.fontawesome.com/e3a19713f3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="download (3).jpg" class="logo">
+                   <ul id="sidemenu">
+                        <li> <a href="#header">Home </a> </li>
+                        <li>  <a href="#about"> About </a></li>
+                        <li> <a href="#services"> Services </a> </li>
+                        <li>  <a href="#contact"> Contact Us</a> </li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h2>Hi, I'm <span>Suraj Thakur </span> <br> from Bareilly </h2>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="Portfolio/download (2).jpg">
+                  </div>
+                <div class="about-col-2">
+                  <h1 class="sub-title"> About Me</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, vitae! Distinctio atque ex doloribus possimus, et iure officiis, beatae id ullam cum repellendus quia quam ratione, dicta reiciendis natus quas.</p>
+                 <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                    <p class="tab-links"onclick="opentab('Education')"> Education</p>               
+               </div> 
+                <div class="tab-contents active-tab" id="Skills">
+                     <ul>
+                        <!-- <li> <span> UI/UX </span> <br>Designing Web/App Interfaces</li>
+                        <br> -->
+                        <li> <span> Web Development</span><br>Web/App Development</li>
+                        <br>
+                        <li> <span> UI/UX Learning </span> <br>Building Andriod /OiS Development</li>
+                        <br>
+                         <li> <span> Other Skills </span> <br>HTML,Css ,JavaScript,Bootstrap,React , Node.js.</li> 
+                        <br> 
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="Experience">
+                    <ul>
+                       <li> <span> 2024- Current  (Projects)</span> <br> Amazone Clone, Portfolio</li>
+                       <br>
+                       <li> <span> 2020-23 </span><br>Web Development</li>
+                       <!-- <br>
+                       <li> <span> Intermediate </span> <br>Building Andriod /OiS Development</li> -->
+                   </ul>
+                  </div>
+                   <div class="tab-contents" id="Education">
+                    <ul>
+                       <li> <span>2020 </span> <br>12th From S.K.S.Vidya Mandir Inter College Shahjahanpur,UP</li>
+                       <br>
+                       <li> <span> 2025</span><br> MCA From A..P.J.Abul Kalam Aajaad </li>
+                       <br>
+                       <li> <span> 2023 </span> <br> BCA From M.J.P.R.U. Bareilly </li>
+                   </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                                        <!-- Services            -->
+                <div id="services">
+                    <div class="container">
+                        <h1 class="sub-title"> My Services</h1>
+                           <div class="services-list">
+                              <div>
+                                <i class="fas fa-code"></i>
+                                 <h2>Web Design</h2>
+                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quia et, eaque ad vitae atque, laudantium, 
+                                    exercitationem incidunt vel voluptatem fugit nemo repudiandae 
+                                    tempore velit dolor molestiae amet veritatis dicta?</p>
+                                    <a href="#">Learn more</a>
+                              </div>
+                              <div>
+                                <i class="fa-solid fa-crop"></i>
+                                <h2>UI/UX Design</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quia et, eaque ad vitae atque, laudantium, 
+                                   exercitationem incidunt vel voluptatem fugit nemo repudiandae 
+                                   tempore velit dolor molestiae amet veritatis dicta?</p>
+                                   <a href="#">Learn more</a>
+                             </div>  
+                        </div>
+                    </div>
+                </div>  
+                <!--  ---------------------------Portfolio----------->   
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="download (1).jpg">
+                        <div class="layer">
+                            <h3> Shopping App</h3>
+                            <p> This App will be help for reaches the items in easy way. All the persons are 
+                                choose the perfect items .
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="download (1).jpg">
+                        <div class="layer">
+                        <h3> Shopping Web App</h3>
+                        <p> This App will be help for reaches the items in easy way. All the persons are 
+                            choose the perfect items .
+                        </p>
+                        <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                    </div>
+                    
+                </div>
+                <a href="#" class="btn"> See More</a>
+            </div>
+        </div>
+                <!-- Contact -->
+                 
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                 <h1 class="sub-title">Contact Me</h1>
+                                 <p><i class="fa-solid fa-paper-plane"></i> Contact@gmail.com</p>
+                                 <p> <i class="fa-solid fa-phone-volume"></i>0123467892</p>
+                                 <div class="social-icons">
+                                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://instagram.com"> <i class="fa-brands fa-instagram"></i></a>
+                                    <a href=" https://whatsapp.com"> <i class="fa-brands fa-whatsapp"></i> </a>
+                                    <a href=" https://linkedin.com"> <i class="fa-brands fa-linkedin"></i></a>
+                                 </div>
+                                 <a href="Pi7_Tool_WhatsAppImage2024-10-14at12.04.33PM.jpeg" download class="btn btn2"> Download CV </a>
+                          </div>
+                            <div class="contact-right">
+                                <form>
+                                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                                    <input type="email" name="email" placeholder="email@gmail.com" required>
+                                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                    <button type="submit" class="btn btn2" >Submit </button>
+
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>  <i class="fa-solid fa-user"></i> Hi , We are so happy you chose us for your stay . Thank You <i class="fa-solid fa-heart"></i></p>
+                </div>
+      <!-- <script> -->
+<!-- //              var tablinks = document.getElementsByClassName("tab-links");
+//              var tabcontents= document.getElementsByClassName("tab-contents");
+
+// function opentab(tabname){
+//     for (tablink of tablinks) {
+//         tablink.classList.remove("active-link");
+//     }
+//     for (tabcontent of tabcontents) {
+//         tabcontent.classList.remove("active-tab");
+//    }
+//    event.currentTarget.classList.add("active-link");
+//    document.getElementById(tabname).classList.add("active-tab");
+// } -->
+      <!-- </script> -->
+       
+      <script src="script.js"></script>
+</body>
+</html>
